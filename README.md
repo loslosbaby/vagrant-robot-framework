@@ -16,16 +16,16 @@
 $ cd vagrant-robot-framework
 
 $ vagrant up
-# Download/configure/starts the VM.  First time, takes 8-9 minutes on broadband.
+# Download/configure/starts the VM.  First time takes 8-9 minutes on broadband.
 
 $ vagrant ssh
 # Log into the VM, to do commands manually, OR:
 
 $ vagrant ssh -c 'pybot src/path/to/your/test'
-# Run tests, OR:
+# Run test(s) in that directory, and all subdirectories, OR:
 
 $ vagrant ssh -c 'pybot src/path/to/your/test' -- -x
-# Run tests in headless mode, OR
+# Run test(s)s in headless mode, OR
 ```
 
 ## What's Inside?
